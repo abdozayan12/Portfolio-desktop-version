@@ -124,7 +124,6 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    /* border: #7f8cff dashed 3px; */
     margin-bottom: 104px;
     height: 100%;
     margin-top: -75px;
@@ -570,7 +569,6 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    border: #7f8cff dashed 3px;
     margin-bottom: 104px;
     height: 100%;
   }
