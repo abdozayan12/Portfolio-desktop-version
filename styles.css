@@ -449,3 +449,52 @@
     background-color: #396df2;
   }
 }
+
+/* mobile styling */
+
+@media only screen and (min-width: 375px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e5e5;
+  }
+
+  #navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    height: 60px;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .langu ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  #navbar ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  a:hover {
+    color: cyan;
+  }
+
+  #navbar ul a {
+    padding: 10px;
+    margin: 0 3px;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .logo {
+    text-decoration: none;
+  }
+}
