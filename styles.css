@@ -150,6 +150,10 @@
     margin-top: 104px;
   }
 
+ .grid-item4 {
+    grid-row-start: 1, 2;
+  }
+
   .grid-container img {
     width: 100%;
   }
