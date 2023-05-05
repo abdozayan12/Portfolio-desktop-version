@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (min-width: 768px) {
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #e5e5e5;
   }
 
@@ -157,6 +157,16 @@
 
   .grid-container img {
     width: 100%;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+
+  .grid-container img:hover {
+    background-color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
   }
 
   .grid-item3 {
@@ -255,7 +265,7 @@
   }
 
   .buttonButton1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
     font-weight: 500;
     width: 135px;
@@ -273,7 +283,7 @@
   }
 
   .buttonButton2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -316,7 +326,7 @@
 
   .myself {
     margin-bottom: 12px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -325,7 +335,7 @@
   }
 
   .AboutMyself {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -336,7 +346,7 @@
   }
 
   .boxConnect2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -396,7 +406,7 @@
 
     /* margin: 24px; */
     text-align: center;
-    font-family: 'poppins', sans-serif;
+    font-family: "poppins", sans-serif;
     background-color: #396df2;
     height: 846px;
     border-top-left-radius: 80px;
@@ -468,7 +478,7 @@
 
 @media (max-width: 767.9px) {
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #e5e5e5;
     width: 100%;
   }
@@ -706,7 +716,7 @@
   }
 
   .buttonButton1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
     font-weight: 500;
     width: 135px;
@@ -724,7 +734,7 @@
   }
 
   .buttonButton2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -767,7 +777,7 @@
 
   .myself {
     margin-bottom: 12px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -776,7 +786,7 @@
   }
 
   .AboutMyself {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -787,7 +797,7 @@
   }
 
   .boxConnect2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -843,7 +853,7 @@
 
     /* margin: 24px; */
     text-align: center;
-    font-family: 'poppins', sans-serif;
+    font-family: "poppins", sans-serif;
     background-color: #396df2;
     height: 779px;
     border-top-left-radius: 80px;
