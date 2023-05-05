@@ -280,6 +280,8 @@
   .buttonButton1:hover {
     color: white;
     background-color: #396df2;
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
   .buttonButton2 {
