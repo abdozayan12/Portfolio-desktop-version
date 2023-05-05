@@ -521,11 +521,11 @@
     background-position: center 96px;
     background-size: 100%;
     background-repeat: no-repeat;
-    border-bottom-left-radius: 160px;
+    border-bottom-left-radius: 90px;
     background-color: #fff;
-    height: 718px;
+    height: 713px;
     padding: 6px;
-    padding-top: 50px;
+    padding-top: 120px;
   }
 
   /* .boxHeader {
@@ -603,7 +603,7 @@
     overflow: hidden;
     border-radius: 24px;
     padding: 15px;
-    margin-top: 104px;
+    margin-top: 70px;
   }
 
   .grid-container img {
@@ -756,6 +756,7 @@
     margin-left: -10px;
     justify-content: space-around;
     padding: 24px;
+    padding-bottom: 114px;
   }
 
   .section2 {
