@@ -39,8 +39,10 @@
     list-style-type: none;
   }
 
-  a:hover {
+  #navbar ul a:hover {
     color: cyan;
+    transition: 1s ease-out;
+    font-size: 20px;
   }
 
   #navbar ul a {
@@ -279,6 +281,8 @@
   .buttonButton1:hover {
     color: white;
     background-color: #396df2;
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
   .buttonButton2 {
