@@ -39,8 +39,10 @@
     list-style-type: none;
   }
 
-  a:hover {
+  #navbar ul a:hover {
     color: cyan;
+    transition: 1s ease-out;
+    font-size: 20px;
   }
 
   #navbar ul a {
